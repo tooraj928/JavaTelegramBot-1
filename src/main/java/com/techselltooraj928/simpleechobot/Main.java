@@ -12,7 +12,7 @@ import org.telegram.telegrambots.longpolling.TelegramBotsLongPollingApplication;
  */
 public class Main {  
     public static void main(String[] args) {  
-        String botToken = "8154189574:AAEUKPEPXgt_1vWzzeOoj8IgJ4HGX-j9wnA";  
+        String botToken = "Copy and paste your telegram token here/do not delete the quotations";  
         try (TelegramBotsLongPollingApplication botsApplication = new TelegramBotsLongPollingApplication()) {  
             botsApplication.registerBot(botToken, new MyAmazingBot(botToken));  
             System.out.println("MyAmazingBot successfully started!");  
